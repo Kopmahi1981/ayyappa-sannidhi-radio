@@ -1,0 +1,52 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sanctumGlow" cx="50%" cy="38%" r="45%">
+      <stop offset="0%" stop-color="#FFB300" stop-opacity="0.45" />
+      <stop offset="35%" stop-color="#E65100" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#2E0800" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#080503" stop-opacity="0" />
+    </radialGradient>
+    
+    <linearGradient id="hillDusk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24170E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0A0604" stop-opacity="0.98" />
+    </linearGradient>
+
+    <linearGradient id="goldStep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B6914" />
+      <stop offset="50%" stop-color="#F5D77F" />
+      <stop offset="100%" stop-color="#8B6914" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#080503" />
+
+  <!-- Central Sanctum Aura -->
+  <circle cx="960" cy="410" r="500" fill="url(#sanctumGlow)" />
+
+  <!-- Sabarimala Mountain Ridges at Dusk -->
+  <path d="M0 640 Q 380 540, 780 620 T 1450 580 T 1920 660 L 1920 1080 L 0 1080 Z" fill="url(#hillDusk)" />
+  <path d="M0 750 Q 480 670, 960 730 T 1920 710 L 1920 1080 L 0 1080 Z" fill="#120B06" />
+
+  <!-- Sacred 18 Steps (Pathinettampadi) -->
+  <g opacity="0.4">
+    <polygon points="760,820 1160,820 1190,832 730,832" fill="url(#goldStep)" />
+    <polygon points="745,834 1175,834 1205,846 715,846" fill="url(#goldStep)" />
+    <polygon points="730,848 1190,848 1220,860 700,860" fill="url(#goldStep)" />
+    <polygon points="715,862 1205,862 1235,874 685,874" fill="url(#goldStep)" />
+    <polygon points="700,876 1220,876 1250,888 670,888" fill="url(#goldStep)" />
+    <polygon points="685,890 1235,890 1265,902 655,902" fill="url(#goldStep)" />
+    <polygon points="670,904 1250,904 1280,916 640,916" fill="url(#goldStep)" />
+    <polygon points="655,918 1265,918 1295,930 625,930" fill="url(#goldStep)" />
+    <polygon points="640,932 1280,932 1310,944 610,944" fill="url(#goldStep)" />
+    <polygon points="625,946 1295,946 1325,958 595,958" fill="url(#goldStep)" />
+    <polygon points="610,960 1310,960 1340,972 580,972" fill="url(#goldStep)" />
+    <polygon points="595,974 1325,974 1355,986 565,986" fill="url(#goldStep)" />
+    <polygon points="580,988 1340,988 1370,1000 550,1000" fill="url(#goldStep)" />
+    <polygon points="565,1002 1355,1002 1385,1014 535,1014" fill="url(#goldStep)" />
+    <polygon points="550,1016 1370,1016 1400,1028 520,1028" fill="url(#goldStep)" />
+    <polygon points="535,1030 1385,1030 1415,1042 505,1042" fill="url(#goldStep)" />
+    <polygon points="520,1044 1400,1044 1430,1056 490,1056" fill="url(#goldStep)" />
+    <polygon points="505,1058 1415,1058 1445,1070 475,1070" fill="url(#goldStep)" />
+  </g>
+</svg>

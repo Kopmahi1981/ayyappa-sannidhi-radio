@@ -1,0 +1,17 @@
+<svg width="450" height="850" viewBox="0 0 450 850" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="mobileSanctum" cx="50%" cy="36%" r="55%">
+      <stop offset="0%" stop-color="#FFB300" stop-opacity="0.45" />
+      <stop offset="40%" stop-color="#E65100" stop-opacity="0.25" />
+      <stop offset="80%" stop-color="#120A05" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#080503" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="450" height="850" fill="#080503" />
+  <circle cx="225" cy="310" r="260" fill="url(#mobileSanctum)" />
+
+  <!-- Sabarimala Mountain Ridges -->
+  <path d="M0 520 Q 120 460, 225 500 T 450 490 L 450 850 L 0 850 Z" fill="#1A110A" />
+  <path d="M0 600 Q 180 550, 320 590 T 450 570 L 450 850 L 0 850 Z" fill="#0E0804" />
+</svg>
