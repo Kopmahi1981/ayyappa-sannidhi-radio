@@ -67,6 +67,19 @@ export const SEED_SONGS: DevotionalSong[] = [
   duration: 312, // Duration in seconds (e.g. 5 mins 12 secs = 312)
   year: 2024,
 },
+{
+    id: 'tel-07',
+    title: 'Nuduta Vibhoodipai Gandam Bottu Ayyappa Song',
+    originalTitle: 'Nuduta Vibhoodipai Gandam Bottu Ayyappa Song',
+    artist: 'Jusranjith',
+    album: 'Shabari kondalalo',
+    language: 'Telugu',
+    category: 'Harivarasanam',
+    sourceType: 'youtube',
+    youtubeId: 'n2ZWn8SpxvrTFoik',
+    duration: 300,
+    year: 2021,
+},
 ];
 
 
